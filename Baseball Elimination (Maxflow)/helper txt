@@ -1,0 +1,11 @@
+0 - source vertex
+from 1 to (n-1)(n-2)/2 - games vertices
+from ((n-1)(n-2)/2)+1 to (n-1)(n-2)/2 + n - team vertices
+(n-1)(n-2)+ n + 1 - target vertex
+
+for (i=0 to numberofteams - 2) (0) (1)
+ for (j=i+1 to numberofteams -1) (1 2) (2)
+0 1
+0 2
+1 2
+
